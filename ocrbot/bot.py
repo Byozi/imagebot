@@ -1,11 +1,12 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 import logging
-from .config import BOT_TOKEN
-from .commands.start import start
-from .commands.help import help
-from .commands.invalid_command import invalid_command
-from .handlers.callbackquery_handler import button_click
-from .handlers.extract_image import extract_image
+from config import BOT_TOKEN
+from commands.start import start
+from commands.help import help
+from commands.invalid_command import invalid_command
+from handlers.callbackquery_handler import button_click
+from handlers.extract_image import extract_image
+
 
 
 # Enable logging
